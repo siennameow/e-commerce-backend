@@ -20,10 +20,10 @@ router.get('/:id', (req, res) => {
   // find a single tag by its `id`
   Tag.findOne({
     where: {
-      id: req.params.is,
+      id: req.params.id,
     },
       // be sure to include its associated Product data
-    include: [{model:Product}]
+    include: [{model: Product}]
   })
   .then (tagData => {
     if(!tagData) {
