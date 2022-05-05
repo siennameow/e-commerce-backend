@@ -22,18 +22,37 @@ Link to the demo video : https://drive.google.com/file/d/1NtALINbQzl6zTXeYqq6RDM
 
 ## Application Preview ⭐
 
-Demo GIF
+GIF demo for GET all and GET by id for categories, products and tags.
+<img src="/assets/images/GET-demo.gif">
 
+Functionality Example of Product route:
 
-Application Preview:
+GET all products.
+<img src="/assets/images/GET-ALL.png">
 
+POST/Create product.(Add new product"Gucci bag")
+<img src="/assets/images/POST-NEW.png">
+
+GET product by ID.(Find "gucci bag" by it's id "6")
+<img src="/assets/images/GET-BY-ID.png">
+
+PUT/Update product by ID.( Price drop from 5000 usd to 4000 usd and stock changed from 5 to 3)
+<img src="/assets/images/PUT-UPDATE.png">
+
+GET product by ID after update.(Notice the price and stock are changed)
+<img src="/assets/images/PUT-AFTER.png">
+
+DELETE product by ID.
+<img src="/assets/images/DELETE-BY-ID.png">
+
+GET product after delete not found.
+<img src="/assets/images/DELETE-AFTER.png">
 
 ## Features 📋
 
-⚡️ `inquirer` to interact with the user via the command line\
+⚡️ `dotenv` to load environment variables from a .env file into `process.env` and store configuration in the environment separate from code \
 ⚡️ `mysql2` module to connect to MySQL database and perform queries\
-⚡️ `console.table` module to print MySQL rows to the console
-
+⚡️ `express.js`and `sequelize` to build api routes GET (Select All), GET by id (Select by ID), POST (Create), PUT (Update), DELETE (Destroy)
 
 ## Code Snippet 💻
 
