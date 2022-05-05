@@ -123,7 +123,7 @@ After installation :
     - `npm run seed` in terminal
 - Functionality:
     - `npm start`in terminal to start the server
-    - use [Insomnia](https://insomnia.rest/download) to view data through different routes.
+    - use [Insomnia](https://insomnia.rest/download) to interact through different routes.
 
 ## Technologies 🔧
 
